@@ -1,0 +1,78 @@
+/* Annulation des marges et hauters par defaut */
+body{
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+/* Création de la barre de menu */
+header{
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 40px;
+  height: 91px;
+  justify-content: space-between;
+}
+
+/* Tout les élements après le menu */
+.content{
+  background-color: #1F2039;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.menu>ul{
+  display: flex;
+  gap: 20px;
+}
+ul li {
+  list-style: none;
+  
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+button{
+  background-color: #a09fd9;
+  color: #FFF;
+  border: 1px solid #a09fd9;
+  border-radius: 20px;
+  padding: 6px;
+  font-size: 18px;
+  font-family: Manrope, sans-serif;
+  transition: 0.5s;
+}
+
+h1{
+  color: #a5b4fc;
+  font-size: 60px;
+  margin-bottom: 0;
+  font-family: Manrope, sans-serif;
+  font-weight: 300;
+  transition: 1.5ms;
+  
+}
+h3{
+  color: aliceblue;
+  font-family: Manrope, sans-serif;
+  font-size: 15px;
+}
+span{
+  color: #a5b4fc;
+}
+section > img{
+  padding: 90px;
+}
+.text{
+  position: relative;
+  bottom: 50px;
+}
+button::after{
+  background: rgb(115, 115, 233);
+  transition: 1.5s;
+  
+}
